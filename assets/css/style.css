@@ -1,0 +1,364 @@
+/*
+  Theme Name: 
+  Author: 
+  Support: 
+  Description: 
+  Version: 1.0
+*/
+
+/* CSS Index 
+-----------------------------------
+01.
+02.
+03.
+04.
+05.
+06.
+07.
+08.
+09.
+10.
+-----------------------------------
+CSS Index End */
+
+
+/* Google Fonts */
+@import url('https://fonts.googleapis.com/css?family=Arimo:400,700|Lato:300,400,700,900|Open+Sans:300,400,600,700,800|Roboto:300,400,500,700,900|Scada:400,700');
+
+/* 
+  font-family: 'Josefin Sans', sans-serif;
+  font-family: 'Poppins', sans-serif;
+*/
+
+
+/************** Default CSS **************/
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 18px;
+  padding: 0;
+  margin: 0;
+}
+
+a,
+.button,
+button {
+  -webkit-transition: all 0.3s ease-out 0s;
+  -moz-transition: all 0.3s ease-out 0s;
+  -ms-transition: all 0.3s ease-out 0s;
+  -o-transition: all 0.3s ease-out 0s;
+  transition: all 0.3s ease-out 0s;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+a:focus,
+button:focus,
+input:focus,
+textarea:focus {
+  text-decoration: none;
+  outline: none;
+}
+
+button {
+  cursor: pointer
+}
+
+ul,
+ol {
+  margin: 0px;
+  padding: 0px;
+}
+
+li {
+  list-style: none
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: var(--h);
+  text-transform: capitalize;
+  margin-top: 0px;
+}
+
+h1 {
+  font-size: 34px;
+  font-weight: 700;
+}
+
+h2 {
+  font-size: 28px;
+  font-weight: 700;
+}
+
+h3 {
+  font-size: 28px;
+}
+
+h4 {
+  font-size: 22px;
+}
+
+h5 {
+  font-size: 18px;
+}
+
+h6 {
+  font-size: 16px;
+}
+
+p {
+    font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  color: #000;
+  margin-bottom: 30px;
+}
+
+a {
+    font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+}
+img{
+  width: 100%;
+  height: 100%;
+}
+.custom-container {
+  max-width: 870px;
+  margin: 0 auto;
+}
+/************** Default CSS End **************/
+
+
+/************** Template CSS **************/
+
+.header-logo {
+    max-width: 920px;
+    margin: 0 auto;
+}
+
+header {
+    background: rgb(0, 123, 255);
+    padding: 10px 0px;
+}
+
+.header-logo img {
+    max-width: 220px;
+}
+
+.section-1 {
+    padding-top: 50px;
+}
+
+.section-1 h1 {
+    margin-bottom: 30px;
+}
+.sectino-padding {
+    padding: 0px 30px;
+}
+.section-2 img {
+    max-width: 570px;
+    margin: 0 auto;
+}
+
+.section-2 {
+    text-align: center;
+}
+.section3 h2 {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.yellow-box p {
+    font-style: italic;
+    line-height: 24px;
+    font-size: 18px;
+    text-align: center;
+    margin: 0;
+}
+
+.yellow-box {
+    background: rgb(255, 255, 0);
+    padding: 20px 30px;
+    margin-bottom: 25px;
+}
+.small-yellow {
+    background: rgb(255, 255, 0);
+    padding: 8px 8px;
+    margin-bottom: 50px;
+}
+
+.small-yellow p {
+    font-size: 20px;
+    text-align: center;
+    margin: 0;
+}
+a.buy-btn {
+    line-height: 36px;
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+    font-weight: 800;
+    font-family: "Open Sans", sans-serif;
+    background: rgb(252, 136, 21);
+    display: block;
+    padding: 24px 20px;
+    text-align: center;
+    text-decoration: none;
+}
+.section-1 img {
+    max-width: 840px;
+    margin: 0 auto;
+    text-align: center;
+    display: block;
+}
+.footer {
+    padding: 60px 0;
+    font-size: 14px;
+    word-wrap: break-word;
+    background: #2e3138;
+    color: #abb0ba;
+    text-align: center;
+        margin-top: 60px;
+}
+
+.custom-container2 {
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+.custom-container2 p {
+    color: #abb0ba;
+    font-size: 14px;
+    margin-bottom: 15px;
+    line-height: 22px;
+}
+
+.custom-container2 ul {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.custom-container2 ul li a {
+    color: #abb0ba;
+    font-size: 14px;
+    text-decoration: none;
+    position: relative;
+}
+
+.custom-container2 ul li {
+    margin: 0px 6px;
+}
+
+.custom-container2 ul li a:after {
+    position: absolute;
+    left: -8px;
+    top: 9px;
+    content: "";
+    width: 3px;
+    height: 3px;
+    background: #abb0ba;
+    border-radius: 50%;
+}
+
+.custom-container2 ul li a:hover {
+    text-decoration: underline;
+}
+/************** Template CSS End **************/
+.mt-15{
+  margin-top: 10px;
+}
+
+
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) { 
+  .custom-container {
+    max-width: 680px;
+    margin: 0 auto;
+} 
+.sectino-padding {
+    padding: 0px 0px;
+}
+a.buy-btn {
+    line-height: 36px;
+    font-size: 25px;
+    }
+    .header-logo {
+    max-width: 768px;
+    margin: 0 auto;
+}
+}
+
+/* Extra small devices (portrait phones, less than 768px) */
+@media (max-width: 767.98px) { 
+   .sectino-padding {
+    padding: 0px 0px;
+}
+.custom-container {
+    padding: 0px 20px;
+}
+.section3 h2 {
+    font-size: 25px;
+}
+a.buy-btn {
+    line-height: 24px;
+    font-size: 20px;
+    }
+    .custom-container2 {
+    max-width: 100%;
+    padding: 0px 20px;
+}
+.section-1 h1 {
+    margin-bottom: 30px;
+    font-size: 25px;
+}
+.header-logo {
+    padding: 0px 20px;
+}
+.section-1 {
+    padding-top: 30px;
+}
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 320px) and (max-width: 575.98px) { 
+   .section-1 h1 {
+    margin-bottom: 30px;
+    font-size: 20px;
+}
+p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #000;
+    margin-bottom: 20px;
+}
+.section3 h2 {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 18px;
+}
+a.buy-btn {
+    line-height: 23px;
+    font-size: 16px;
+}
+.small-yellow p {
+    font-size: 18px;
+    text-align: center;
+    margin: 0;
+}
+}
